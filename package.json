@@ -1,0 +1,19 @@
+{
+  "name": "paradise-travels-server",
+  "version": "1.0.0",
+  "description": "This is Paradise Travels web server. It contains all the essential data for the client site server. Paradise Travels is a travel booking site. which is made under MERN Stack Development.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "junaidul kader tanzim",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3"
+  }
+}
